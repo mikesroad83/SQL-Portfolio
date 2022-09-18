@@ -1,6 +1,6 @@
 /* What does the app's SQL look like? */
 
-CREATE TABLE wellness (id integer primary key autoincrement, name text, calories integer, carbs integer, main_ingredient text, mood text);
+CREATE TABLE wellness (id integer PRIMARY KEY autoincrement, name text, calories integer, carbs integer, main_ingredient text, mood text);
 
 INSERT INTO wellness (name, calories, carbs, main_ingredient, mood) VALUES ("Ice Cream", 100, 20, "Sugar", "Happy");
 INSERT INTO wellness (name, calories, carbs, main_ingredient, mood) VALUES ("Tuna Salad", 50, 5, "Tuna", "Sad");
